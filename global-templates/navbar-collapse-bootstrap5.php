@@ -11,11 +11,7 @@ defined( 'ABSPATH' ) || exit;
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
-
-	<h2 id="main-nav-label" class="screen-reader-text">
-		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
-	</h2>
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
 
 	<div class="<?php echo esc_attr( $container ); ?>">
@@ -25,11 +21,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<?php if ( is_front_page() && is_home() ) : ?>
 
-				<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+				<!--<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>-->
 
 			<?php else : ?>
 
-				<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+				<!--<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>-->
 
 			<?php endif; ?>
 
@@ -40,9 +36,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		?>
 		<!-- end custom logo -->
 
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+		<!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 			<span class="navbar-toggler-icon"></span>
-		</button>
+		</button>-->
 
 		<!-- The WordPress Menu goes here -->
 		<?php

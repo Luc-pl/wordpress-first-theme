@@ -14,9 +14,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
 
-<?php if ( 'container' === $container ) : ?>
+
 	<div class="container">
-<?php endif; ?>
+
 
  
 
@@ -39,9 +39,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			)
 		);
 		?>
-
-<?php if ( 'container' === $container ) : ?>
 	</div><!-- .container -->
-<?php endif; ?>
 
 </nav><!-- .site-navigation -->
