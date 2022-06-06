@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0096FF;
+  --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -13637,12 +13637,12 @@ a.skip-link {
 
 .has-blue-color,
 .has-blue-color:visited {
-  color: #0096FF;
+  color: #0d6efd;
 }
 
 .has-blue-background-color {
-  background-color: #0096FF;
-  border-color: #0096FF;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .has-indigo-color,
