@@ -20,6 +20,11 @@ body {
 
     .menu {
         margin-right: 100px;
+        font-weight: 500;
+
+        a {
+            margin: 0 10px 0 10px;
+        }
     }
 
     a {
@@ -41,6 +46,66 @@ body {
         a {
             text-decoration: none;
         }
+    }
+}
+
+#main-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid grey;
+}
+
+
+
+.home-hero {
+    position: relative;
+
+    .hero-circle {
+        position: absolute;
+        border-radius: 50%;
+        width: 740px;
+        height: 740px;
+        left: 830px;
+        top: -101px;
+        background: $primary;
+        z-index: -9999;
+    }
+
+    .hero-content {
+        padding-top: 100px;
+    }
+
+    .text-hero {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: -0.376923px;
+        color: $primary;
+    }
+
+    .text-hero-title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 42px;
+        color: $text-color;
+        margin: 30px 0;
+    }
+    
+    .text-hero-description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: $text-color;
+    }
+
+    .btn {
+        background-color: $primary;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 15px;
+        padding: 17px;
     }
 }
 
