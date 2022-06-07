@@ -17087,4 +17087,35 @@ figure.woocommerce-product-gallery__wrapper {
   clip: auto;
 }
 
+body {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+
+.top-header {
+  background-color: #ffffff;
+  color: black;
+  height: 72px;
+  margin: 0 100px 0 100px;
+}
+.top-header .menu {
+  margin-right: 100px;
+}
+.top-header a {
+  color: #000000;
+}
+.top-header a svg {
+  margin: 10px;
+}
+.top-header img {
+  height: 30px;
+}
+.top-header .navbar-brand {
+  font-weight: 800;
+  margin: 5px;
+}
+.top-header .navbar-brand a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=theme.css.map */

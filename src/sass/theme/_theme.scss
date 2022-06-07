@@ -6,3 +6,41 @@ $primary-social: #80CAFF;
 
 $text-color: #000000;
 $element-color: #F1F1F1;
+
+body {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.top-header {
+    background-color: #ffffff;
+    color: black;
+    height: 72px;
+    margin: 0 100px 0 100px;
+
+    .menu {
+        margin-right: 100px;
+    }
+
+    a {
+        color: $text-color;
+
+        svg {
+            margin: 10px;
+        }
+    }
+
+    img {
+        height: 30px;
+    }
+
+    .navbar-brand {
+        font-weight: 800;
+        margin: 5px;
+        
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
