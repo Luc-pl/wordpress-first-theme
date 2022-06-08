@@ -17127,10 +17127,15 @@ body {
   border-bottom: 1px solid grey;
 }
 
-.home-hero {
+.hero {
+  height: 672px;
+}
+.hero .home-hero {
+  width: 100vw;
+  height: 100vh;
   position: relative;
 }
-.home-hero .hero-circle {
+.hero .home-hero .hero-circle {
   position: absolute;
   border-radius: 50%;
   width: 740px;
@@ -17140,38 +17145,70 @@ body {
   background: #0096FF;
   z-index: -9999;
 }
-.home-hero .hero-content {
+.hero .home-hero .hero-content {
   padding-top: 100px;
 }
-.home-hero .text-hero {
+.hero .home-hero .text-hero {
   font-weight: 400;
   font-size: 25px;
   line-height: 34px;
   letter-spacing: -0.376923px;
   color: #0096FF;
 }
-.home-hero .text-hero-title {
+.hero .home-hero .text-hero-title {
   font-weight: 800;
   font-size: 40px;
   line-height: 42px;
   color: #000000;
   margin: 30px 0;
 }
-.home-hero .text-hero-description {
+.hero .home-hero .text-hero-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   color: #000000;
 }
-.home-hero .btn, .home-hero .wpcf7 input[type=submit], .wpcf7 .home-hero input[type=submit], .home-hero .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-hero a.button, .home-hero .woocommerce-info a.button, .woocommerce-info .home-hero a.button {
+.hero .home-hero .btn, .hero .home-hero .wpcf7 input[type=submit], .wpcf7 .hero .home-hero input[type=submit], .hero .home-hero .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .hero .home-hero a.button, .hero .home-hero .woocommerce-info a.button, .woocommerce-info .hero .home-hero a.button {
   background-color: #0096FF;
   color: white;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  border-radius: 15px;
-  padding: 17px;
+  border-radius: 10px;
+  padding: 10px 17px;
+}
+
+.cta {
+  height: 148px;
+  background-color: #F0F6FB;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.cta p {
+  color: #0096FF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+.cta p span {
+  font-size: 62px;
+  font-weight: 900;
+}
+.cta p span a {
+  color: #0096FF;
+  text-decoration: none;
+}
+.cta p span a:hover {
+  color: coral;
 }
 
 /*# sourceMappingURL=theme.css.map */
