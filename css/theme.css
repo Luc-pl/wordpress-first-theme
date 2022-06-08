@@ -17142,8 +17142,12 @@ body {
   height: 740px;
   left: 830px;
   top: -101px;
-  background: #0096FF;
   z-index: -9999;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .hero .home-hero .hero-content {
   padding-top: 100px;
@@ -17169,7 +17173,11 @@ body {
   color: #000000;
 }
 .hero .home-hero .btn, .hero .home-hero .wpcf7 input[type=submit], .wpcf7 .hero .home-hero input[type=submit], .hero .home-hero .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .hero .home-hero a.button, .hero .home-hero .woocommerce-info a.button, .woocommerce-info .hero .home-hero a.button {
-  background-color: #0096FF;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   font-weight: 700;
   font-size: 20px;
@@ -17177,6 +17185,9 @@ body {
   text-align: center;
   border-radius: 10px;
   padding: 10px 17px;
+}
+.hero .home-hero .btn:hover, .hero .home-hero .wpcf7 input[type=submit]:hover, .wpcf7 .hero .home-hero input[type=submit]:hover, .hero .home-hero .woocommerce-notices-wrapper .woocommerce-message a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .hero .home-hero a.button:hover, .hero .home-hero .woocommerce-info a.button:hover, .woocommerce-info .hero .home-hero a.button:hover {
+  background-color: coral;
 }
 
 .cta {
@@ -17209,6 +17220,74 @@ body {
 }
 .cta p span a:hover {
   color: coral;
+}
+
+.services {
+  padding: 72px 0 72px 0;
+}
+.services .card-services {
+  width: 264px;
+  height: 169px;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffff;
+  border-radius: 15px;
+}
+.services .card-services img {
+  width: 70px;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+.services .card-services .card-services-text {
+  margin: 70px 5px 0 5px;
+}
+.services .card-services .card-services-text .card-title {
+  font-size: 14px;
+  font-weight: 900;
+}
+.services .card-services .card-services-text .card-description {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.education {
+  padding: 72px 0 72px 0;
+}
+.education .circle-edu {
+  position: absolute;
+  width: 478px;
+  height: 478px;
+  left: 453px;
+  top: 1244px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.education .edu-container {
+  position: relative;
+}
+.education .edu-container .edu-title h3, .education .edu-container .edu-title .h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.3769229949px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.education .edu-container .edu-list h4, .education .edu-container .edu-list .h4 {
+  color: #0096FF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.education .edu-container .edu-list p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 25px;
 }
 
 /*# sourceMappingURL=theme.css.map */

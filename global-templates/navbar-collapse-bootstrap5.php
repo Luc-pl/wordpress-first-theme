@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<?php if ( is_front_page() && is_home() ) : ?>
 
-				<img src="<?php echo get_template_directory_uri(); ?>/src/img/logo.png"> <h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+				<img src="<?php echo get_template_directory_uri(); ?>/src/img/logo-zab.svg"> <h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
 
 			<?php else : ?>
 

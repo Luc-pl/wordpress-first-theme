@@ -45,5 +45,70 @@ if ( is_front_page() ) {
     </div>
 </section>
 
+<section class="services">
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 card-services">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/icon1.png" alt=""/>
+                <div class="card-services-text">
+                    <p class="card-title">Stomatologia profilaktyczna</p>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 card-services">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/icon2.png" alt=""/>
+                <div class="card-services-text">
+                    <p class="card-title">Leczenie Zachowawcze</p>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 card-services">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/icon3.png" alt=""/>
+                <div class="card-services-text">
+                    <p class="card-title">Chirurgia specjalistyczna</p>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 card-services">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/icon4.png" alt=""/>
+                <div class="card-services-text">
+                    <p class="card-title">Stomatologia estetyczna</p>
+                    <p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education">
+    <div class="circle-edu"></div>
+    <div class="container edu-container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/pacjent1.png" alt=""/>
+            </div>
+            <div class="col-lg-6">
+                <div class="edu-title">
+                    <h3>Relax your dentist knows best</h3>
+                    <div class="edu-list">
+                        <h4>Dental hygiene never forget!</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>    
+                    </div>
+                    <div class="edu-list">
+                        <h4>Don’t rush when you brush!</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>    
+                    </div>
+                    <div class="edu-list">
+                        <h4>Visit your dentist once in 6 months</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <?php
 get_footer();
