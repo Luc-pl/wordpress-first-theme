@@ -17290,4 +17290,55 @@ body {
   margin-bottom: 25px;
 }
 
+.services-two {
+  padding: 72px 0 72px 0;
+}
+.services-two .title-services {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.services-two .subtitle-services {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.services-two .category-services {
+  margin-bottom: 90px;
+}
+.services-two .btn-services {
+  border: none;
+  background-color: #ffff;
+  color: #0096FF;
+}
+.services-two .btn-services:hover {
+  color: coral;
+}
+.services-two .btn-all {
+  margin-top: 40px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.services-two .btn-all .btn-services-all {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  border: none;
+  background-color: #ffff;
+  color: #000000;
+}
+.services-two .btn-all .btn-services-all:hover {
+  color: #0096FF;
+}
+
 /*# sourceMappingURL=theme.css.map */
