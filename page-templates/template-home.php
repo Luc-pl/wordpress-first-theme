@@ -166,5 +166,41 @@ if ( is_front_page() ) {
     </div>
 </section>
 
+<section class="team">
+    <h3 class="title-team">Our Distinguished Dental Specialists</h3>
+    <div class="container">
+        <div class="row mx-2">
+            <div class="col-lg-3 team-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/lekarz2.png" alt=""/>
+                <div class="team-person">
+                    <p>Jan Wiśniewski</p>
+                    <p>Dentysta</p>
+                </div>
+            </div>
+            <div class="col-lg-3 team-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/lekarz3.png" alt=""/>
+                <div class="team-person">
+                    <p>Anna Nowak</p>
+                    <p>Dentysta</p>
+                </div>
+            </div>
+            <div class="col-lg-3 team-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/lekarz4.png" alt=""/>
+                <div class="team-person">
+                    <p>Jeremi Przybyła</p>
+                    <p>Dentysta</p>
+                </div>
+            </div>
+            <div class="col-lg-3 team-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/lekarz5.png" alt=""/>
+                <div class="team-person">
+                    <p>Monika Richards</p>
+                    <p>Dentysta</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php
 get_footer();
