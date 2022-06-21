@@ -202,5 +202,28 @@ if ( is_front_page() ) {
     </div>
 </section>
 
+<section class="blog">
+  <div class="container">
+    <h3 class="title-blog">Our Blog</h3>
+    <p class="subtitle-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br /> odio in et, lectus sit lorem id integer.</p>
+    <div class="row">
+        <article  <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+            <div class="blog-row">
+                <?php $posts = get_posts( array( 'posts_per_page' => 3 ) );
+                    foreach ( $posts as $_post ) {
+                        if ( has_post_thumbnail( $_post->ID ) ) {
+                            echo '<a href="' . get_permalink( $_post->ID ) . '" title="' . esc_attr( $_post->post_title ) . '">';
+                            echo get_the_post_thumbnail( $_post->ID, 'medium' );
+                            echo '</a>';
+                            echo apply_filters( 'the_title', $_post->post_title, $post->ID );
+                        }
+                    }
+                ?>
+            </div>
+        </article>
+    </div>
+  </div>
+</section>     
+
 <?php
 get_footer();

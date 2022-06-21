@@ -16821,4 +16821,32 @@ body {
   font-weight: 500;
 }
 
+.blog {
+  padding: 72px 0 72px 0;
+}
+.blog .title-blog {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.blog .subtitle-blog {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.blog .blog-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
 /*# sourceMappingURL=theme.css.map */
